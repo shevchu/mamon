@@ -1,9 +1,7 @@
-div {
-    display:inline-block;
-}
 .menu li {
     display: inline;
     margin-left: 38px;
+    display:inline-block;
 }
 header {
     max-width: 1186px;
@@ -11,5 +9,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+.description {
+    max-width: 1186px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+.description h1 {
+    font-size: 57px;
+}
+
