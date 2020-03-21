@@ -1,7 +1,13 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .menu li {
     display: inline;
     margin-left: 38px;
-    display:inline-block;
+    display: inline-block;
+    font-size: 14px;
+
 }
 header {
     max-width: 1186px;
@@ -19,3 +25,22 @@ header {
     font-size: 57px;
 }
 
+.button {
+    background-color: #5528FF;
+    border-color: #5528FF;
+    color: #FFFFFF;
+}
+
+.button_sm {
+    width: 100px;
+    height: 24px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button_md {
+    width: 235px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 24px;
+}
