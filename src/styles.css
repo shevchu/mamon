@@ -55,3 +55,21 @@ header {
     margin-top: 110px;
 
 }
+
+.service {
+    display: flex;
+    align-items: center;
+}
+
+.service-image {
+    max-width: 80px;
+    width: 100%;
+
+}
+.service-description {
+    margin-left: 50px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+}
