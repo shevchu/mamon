@@ -8,7 +8,6 @@ body {
 }
 
 .menu li {
-    display: inline;
     margin-left: 38px;
     display: inline-block;
     font-size: 14px;
@@ -53,7 +52,7 @@ header {
 .bordered {
     border-top: 0.5px solid #C2C2C2;
     margin-top: 110px;
-
+    margin-bottom: 110px;
 }
 
 .service {
@@ -64,7 +63,6 @@ header {
 .service-image {
     max-width: 80px;
     width: 100%;
-
 }
 .service-description {
     margin-left: 50px;
@@ -72,4 +70,21 @@ header {
 .services {
     display: flex;
     justify-content: space-around;
+    margin-top: 110px;
 }
+
+.service-description p {
+    color:#B2B2B2;
+    font-size: 14px;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
