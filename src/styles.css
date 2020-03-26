@@ -86,5 +86,20 @@ header {
 .icons {
     display: flex;
     flex-direction: column;
+
 }
 
+.partners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.team  {
+    display: flex;
+    flex-direction: column;
+    margin-top:110px;
+}
+.footer {
+    background-color:#F7F7F7;
+}
