@@ -69,7 +69,7 @@ header {
 }
 .services {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 110px;
 }
 
@@ -80,26 +80,58 @@ header {
 
 .partners {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
+}
 
+.icons > img {
+    margin-top: 62px;
+}
+
+.icons > img:first-child {
+    margin-top: 0;
 }
 
 .partners {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 65px;
 }
 
 .team  {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    margin-top:110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
-.footer {
+
+.members-photos {
+    margin-bottom: 60px;
+}
+
+.members-photos:last-child {
+    margin-bottom: 0;
+}
+.members-photos > img {
+    margin-right: 140px;
+}
+
+.members-photos > img:last-child {
+    margin-right: 0;
+}
+
+.footer  {
     background-color:#F7F7F7;
+}
+
+.footer > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
